@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+ background-image: url("https://images.unsplash.com/photo-1553152531-b98a2fc8d3bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80");
+ background-repeat:no-repeat;
+ background-size:cover;
+
+}
+
+
+form {
+    background: #eeeee4;
+    padding: 20px;
+    max-width: 600px;
+    margin-top: 50px;
+    margin-left: 400px;
+    text-align: center;
+    
+}
+
+h3 {
+    text-align: left;
+}
+
+input,
+label {
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+
+input[type=text] {
+  border:none;
+  border-bottom: 3px black !important;
+  padding: 8px;
+  background: transparent;
+  margin-bottom: 25px;
+}
+
+input[type=submit] {
+    padding: 10px 20px;
+    background: black;
+    color: white;
+}
